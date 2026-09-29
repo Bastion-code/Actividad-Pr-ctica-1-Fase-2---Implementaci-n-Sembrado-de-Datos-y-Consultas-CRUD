@@ -1,0 +1,121 @@
+[
+  {
+    "_id": "prod_cafe_001",
+    "nombre": "Café Caxambu Colombiano",
+    "categoria": "Café en Grano",
+    "precio": 4500.00,
+    "stock": 45,
+    "detalles_especialidad": {
+      "origen": "Colombia",
+      "region": "Huila",
+      "altura_msnm": 1750,
+      "proceso": "Lavado Extended",
+      "notas_catas": ["Frutos rojos", "Caramelo", "Acidez brillante"],
+      "puntuacion_sca": 86.5
+    }
+  },
+  {
+    "_id": "prod_cafe_002",
+    "nombre": "Café Caxambu Etíope",
+    "categoria": "Café en Grano",
+    "precio": 5200.00,
+    "stock": 8,
+    "detalles_especialidad": {
+      "origen": "Etiopía",
+      "region": "Yirgacheffe",
+      "altura_msnm": 1950,
+      "proceso": "Natural",
+      "notas_catas": ["Floral", "Cítrico", "Té negro"],
+      "puntuacion_sca": 88.0
+    }
+  },
+  {
+    "_id": "prod_cafe_003",
+    "nombre": "Café Caxambu Brasil",
+    "categoria": "Café en Grano",
+    "precio": 3900.00,
+    "stock": 60,
+    "detalles_especialidad": {
+      "origen": "Brasil",
+      "region": "Cerrado Mineiro",
+      "altura_msnm": 1100,
+      "proceso": "Natural",
+      "notas_catas": ["Chocolate", "Nuez", "Baja acidez"],
+      "puntuacion_sca": 84.0
+    }
+  },
+  {
+    "_id": "prod_cafe_004",
+    "nombre": "Café Caxambu Descafeinado",
+    "categoria": "Café en Grano",
+    "precio": 4700.00,
+    "stock": 22,
+    "detalles_especialidad": {
+      "origen": "Colombia",
+      "region": "Nariño",
+      "proceso": "Descafeinado por CO2",
+      "notas_catas": ["Suave", "Panela"]
+    }
+  },
+  {
+    "_id": "prod_past_001",
+    "nombre": "Medialuna de Manteca",
+    "categoria": "Pastelería",
+    "precio": 900.00,
+    "stock": 30,
+    "ingredientes": ["Harina", "Manteca", "Azúcar", "Huevo"],
+    "vegano": false,
+    "apto_celiaco": false
+  },
+  {
+    "_id": "prod_past_002",
+    "nombre": "Brownie Vegano",
+    "categoria": "Pastelería",
+    "precio": 1600.00,
+    "stock": 15,
+    "ingredientes": ["Harina integral", "Cacao", "Aceite de coco", "Azúcar mascabo"],
+    "vegano": true,
+    "apto_celiaco": false
+  },
+  {
+    "_id": "prod_past_003",
+    "nombre": "Alfajor de Maicena Sin TACC",
+    "categoria": "Pastelería",
+    "precio": 1200.00,
+    "stock": 20,
+    "ingredientes": ["Fécula de maíz", "Dulce de leche", "Coco rallado"],
+    "vegano": false,
+    "apto_celiaco": true
+  },
+  {
+    "_id": "prod_maq_001",
+    "nombre": "Cafetera Espresso Caxambu Home",
+    "categoria": "Cafeteras",
+    "precio": 185000.00,
+    "stock": 5,
+    "marca": "Caxambu Equipment",
+    "garantia_meses": 12,
+    "voltaje": "220V",
+    "incluye_molinillo": false
+  },
+  {
+    "_id": "prod_maq_002",
+    "nombre": "Cafetera de Filtro V60 Kit",
+    "categoria": "Cafeteras",
+    "precio": 32000.00,
+    "stock": 18,
+    "marca": "Hario",
+    "garantia_meses": 6,
+    "voltaje": null,
+    "incluye_molinillo": false
+  },
+  {
+    "_id": "prod_acc_001",
+    "nombre": "Molinillo Manual de Acero",
+    "categoria": "Accesorios",
+    "precio": 21000.00,
+    "stock": 25,
+    "marca": "Caxambu Equipment",
+    "garantia_meses": 3
+  }
+]
