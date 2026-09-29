@@ -1,0 +1,202 @@
+[
+  {
+    "_id": "ped_777888999",
+    "cliente_id": "usr_987654321",
+    "fecha_pedido": { "$date": "2026-08-18T16:15:00Z" },
+    "tipo_entrega": "Take Away",
+    "monto_total": 9000.00,
+    "items": [
+      {
+        "producto_id": "prod_cafe_001",
+        "nombre_producto": "Café Caxambu Colombiano",
+        "cantidad": 2,
+        "variante_molienda": "Fina (Espresso)",
+        "precio_unitario": 4500.00
+      }
+    ],
+    "estado": "Entregado"
+  },
+  {
+    "_id": "ped_777889000",
+    "cliente_id": "usr_987654322",
+    "fecha_pedido": { "$date": "2026-08-19T10:00:00Z" },
+    "tipo_entrega": "Mesa",
+    "monto_total": 5700.00,
+    "items": [
+      {
+        "producto_id": "prod_past_001",
+        "nombre_producto": "Medialuna de Manteca",
+        "cantidad": 2,
+        "precio_unitario": 900.00
+      },
+      {
+        "producto_id": "prod_cafe_003",
+        "nombre_producto": "Café Caxambu Brasil",
+        "cantidad": 1,
+        "variante_molienda": "Media (Filtrado)",
+        "precio_unitario": 3900.00
+      }
+    ],
+    "estado": "Entregado"
+  },
+  {
+    "_id": "ped_777889001",
+    "cliente_id": "usr_987654325",
+    "fecha_pedido": { "$date": "2026-08-20T18:30:00Z" },
+    "tipo_entrega": "Delivery",
+    "monto_total": 185000.00,
+    "direccion_entrega": {
+      "calle": "Av. San Martín 1245",
+      "ciudad": "Mendoza",
+      "codigo_postal": "5500"
+    },
+    "items": [
+      {
+        "producto_id": "prod_maq_001",
+        "nombre_producto": "Cafetera Espresso Caxambu Home",
+        "cantidad": 1,
+        "precio_unitario": 185000.00
+      }
+    ],
+    "estado": "En preparación"
+  },
+  {
+    "_id": "ped_777889002",
+    "cliente_id": "usr_987654323",
+    "fecha_pedido": { "$date": "2026-08-21T09:10:00Z" },
+    "tipo_entrega": "Take Away",
+    "monto_total": 5200.00,
+    "items": [
+      {
+        "producto_id": "prod_cafe_002",
+        "nombre_producto": "Café Caxambu Etíope",
+        "cantidad": 1,
+        "variante_molienda": "Fina (Espresso)",
+        "precio_unitario": 5200.00
+      }
+    ],
+    "estado": "Entregado"
+  },
+  {
+    "_id": "ped_777889003",
+    "cliente_id": "usr_987654327",
+    "fecha_pedido": { "$date": "2026-08-22T15:45:00Z" },
+    "tipo_entrega": "Mesa",
+    "monto_total": 5490.00,
+    "items": [
+      {
+        "producto_id": "prod_cafe_001",
+        "nombre_producto": "Café Caxambu Colombiano",
+        "cantidad": 1,
+        "variante_molienda": "Fina (Espresso)",
+        "precio_unitario": 4500.00
+      },
+      {
+        "producto_id": "prod_past_003",
+        "nombre_producto": "Alfajor de Maicena Sin TACC",
+        "cantidad": 1,
+        "precio_unitario": 1600.00
+      }
+    ],
+    "estado": "Entregado",
+    "descuento": { "porcentaje": 10, "motivo": "Cliente frecuente" }
+  },
+  {
+    "_id": "ped_777889004",
+    "cliente_id": "usr_987654328",
+    "fecha_pedido": { "$date": "2026-08-23T11:00:00Z" },
+    "tipo_entrega": "Delivery",
+    "monto_total": 3900.00,
+    "direccion_entrega": {
+      "calle": "Colón 500",
+      "ciudad": "Mendoza",
+      "codigo_postal": "5500"
+    },
+    "items": [
+      {
+        "producto_id": "prod_cafe_003",
+        "nombre_producto": "Café Caxambu Brasil",
+        "cantidad": 1,
+        "variante_molienda": "Gruesa (Prensa Francesa)",
+        "precio_unitario": 3900.00
+      }
+    ],
+    "estado": "Cancelado"
+  },
+  {
+    "_id": "ped_777889005",
+    "cliente_id": "usr_987654329",
+    "fecha_pedido": { "$date": "2026-08-24T14:20:00Z" },
+    "tipo_entrega": "Take Away",
+    "monto_total": 32000.00,
+    "items": [
+      {
+        "producto_id": "prod_maq_002",
+        "nombre_producto": "Cafetera de Filtro V60 Kit",
+        "cantidad": 1,
+        "precio_unitario": 32000.00
+      }
+    ],
+    "estado": "Entregado"
+  },
+  {
+    "_id": "ped_777889006",
+    "cliente_id": "usr_987654330",
+    "fecha_pedido": { "$date": "2026-08-25T16:00:00Z" },
+    "tipo_entrega": "Mesa",
+    "monto_total": 5400.00,
+    "items": [
+      {
+        "producto_id": "prod_cafe_001",
+        "nombre_producto": "Café Caxambu Colombiano",
+        "cantidad": 1,
+        "variante_molienda": "Media (Filtrado)",
+        "precio_unitario": 4500.00
+      },
+      {
+        "producto_id": "prod_past_001",
+        "nombre_producto": "Medialuna de Manteca",
+        "cantidad": 1,
+        "precio_unitario": 900.00
+      }
+    ],
+    "estado": "Entregado"
+  },
+  {
+    "_id": "ped_777889007",
+    "cliente_id": "usr_987654324",
+    "fecha_pedido": { "$date": "2026-08-26T12:30:00Z" },
+    "tipo_entrega": "Take Away",
+    "monto_total": 1600.00,
+    "items": [
+      {
+        "producto_id": "prod_past_002",
+        "nombre_producto": "Brownie Vegano",
+        "cantidad": 1,
+        "precio_unitario": 1600.00
+      }
+    ],
+    "estado": "En preparación"
+  },
+  {
+    "_id": "ped_777889008",
+    "cliente_id": "usr_987654326",
+    "fecha_pedido": { "$date": "2026-08-27T17:50:00Z" },
+    "tipo_entrega": "Delivery",
+    "monto_total": 21000.00,
+    "direccion_entrega": {
+      "calle": "Rivadavia 300",
+      "ciudad": "Mendoza",
+      "codigo_postal": "5500"
+    },
+    "items": [
+      {
+        "producto_id": "prod_acc_001",
+        "nombre_producto": "Molinillo Manual de Acero",
+        "cantidad": 1,
+        "precio_unitario": 21000.00
+      }
+    ],
+    "estado": "Entregado"
+  }
+]
