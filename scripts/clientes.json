@@ -1,0 +1,114 @@
+[
+  {
+    "_id": "usr_987654321",
+    "nombre": "Sebastián Vidal",
+    "email": "svidal050@gmail.com",
+    "fecha_registro": { "$date": "2026-08-18T16:02:14Z" },
+    "perfil": {
+      "telefono": "+5491100000001",
+      "preferencias": ["Café de Especialidad", "Filtrados", "Origen Colombia"]
+    }
+  },
+  {
+    "_id": "usr_987654322",
+    "nombre": "Florencia Bianchi",
+    "email": "florencia.bianchi@gmail.com",
+    "fecha_registro": { "$date": "2026-01-05T10:30:00Z" },
+    "perfil": {
+      "telefono": "+5491100000002",
+      "preferencias": ["Espresso", "Pastelería"]
+    },
+    "puntos_fidelidad": 320
+  },
+  {
+    "_id": "usr_987654323",
+    "nombre": "Rodrigo Nuñez",
+    "email": "rodrigo.nunez@gmail.com",
+    "fecha_registro": { "$date": "2026-02-14T09:00:00Z" },
+    "perfil": {
+      "preferencias": ["Café en Grano", "Origen Etiopía"]
+    }
+  },
+  {
+    "_id": "usr_987654324",
+    "nombre": "Milagros Castro",
+    "email": "milagros.castro@gmail.com",
+    "fecha_registro": { "$date": "2026-03-01T11:15:00Z" },
+    "perfil": {
+      "telefono": "+5491100000004",
+      "preferencias": ["Cold Brew"]
+    },
+    "puntos_fidelidad": 85
+  },
+  {
+    "_id": "usr_987654325",
+    "nombre": "Ezequiel Ramos",
+    "email": "ezequiel.ramos@gmail.com",
+    "fecha_registro": { "$date": "2026-03-20T14:40:00Z" },
+    "perfil": {
+      "telefono": "+5491100000005",
+      "preferencias": ["Cafeteras", "Accesorios"]
+    },
+    "direccion_envio": {
+      "calle": "Av. San Martín 1245",
+      "ciudad": "Mendoza",
+      "codigo_postal": "5500"
+    }
+  },
+  {
+    "_id": "usr_987654326",
+    "nombre": "Camila Ortiz",
+    "email": "camila.ortiz@gmail.com",
+    "fecha_registro": { "$date": "2026-04-02T08:20:00Z" },
+    "perfil": {
+      "telefono": "+5491100000006",
+      "preferencias": ["Filtrados", "Pastelería vegana"]
+    }
+  },
+  {
+    "_id": "usr_987654327",
+    "nombre": "Pablo Ledesma",
+    "email": "pablo.ledesma@gmail.com",
+    "fecha_registro": { "$date": "2026-04-15T17:00:00Z" },
+    "perfil": {
+      "telefono": "+5491100000007",
+      "preferencias": ["Espresso", "Café de Especialidad"]
+    },
+    "puntos_fidelidad": 560
+  },
+  {
+    "_id": "usr_987654328",
+    "nombre": "Antonella Rivas",
+    "email": "antonella.rivas@gmail.com",
+    "fecha_registro": { "$date": "2026-05-10T12:00:00Z" },
+    "perfil": {
+      "telefono": "+5491100000008",
+      "preferencias": ["Cold Brew", "Origen Brasil"]
+    }
+  },
+  {
+    "_id": "usr_987654329",
+    "nombre": "Ignacio Farías",
+    "email": "ignacio.farias@gmail.com",
+    "fecha_registro": { "$date": "2026-06-01T13:30:00Z" },
+    "perfil": {
+      "preferencias": ["Cafeteras"]
+    },
+    "direccion_envio": {
+      "calle": "Belgrano 890",
+      "ciudad": "Godoy Cruz",
+      "codigo_postal": "5501"
+    }
+  },
+  {
+    "_id": "usr_987654330",
+    "nombre": "Lourdes Peralta",
+    "email": "lourdes.peralta@gmail.com",
+    "fecha_registro": { "$date": "2026-07-01T09:45:00Z" },
+    "perfil": {
+      "telefono": "+5491100000010",
+      "preferencias": ["Filtrados", "Origen Colombia"]
+    },
+    "puntos_fidelidad": 150
+  }
+]
